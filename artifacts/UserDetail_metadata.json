@@ -1,0 +1,161 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "UserLength",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "UserType",
+						"type": "string"
+					}
+				],
+				"name": "createUser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "index",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "isRegistered",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "userType",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "users",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "userType",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "addrs",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"userStorage.sol": "UserDetail"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"userStorage.sol": {
+			"keccak256": "0x03010edf7838c28e5eb00e04687ace6888ec598039d4c4fa89df6804ad2b1313",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f8487c06ea37a113246071a125ac99b755dec4bcbe82d85343ff544575d2470e",
+				"dweb:/ipfs/Qmba3YD152PDWRYAGQ6WFNM64ioPwATgeDevHLVudzMzrG"
+			]
+		},
+		"userStorageInterface.sol": {
+			"keccak256": "0x954414e07bebe8ef94f234870a6cb41ed6c5a9e563ed251b9e6c84a25e91ea13",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d4af53bd7426675ad5f8308fd6563e4c20456a0db91469bf428a4cf0e9ff28d3",
+				"dweb:/ipfs/QmYM9MRpYHvRBrpaYZ3dbNr47xroja8XBRjPnF2VRLN8ng"
+			]
+		}
+	},
+	"version": 1
+}
